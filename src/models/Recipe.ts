@@ -21,7 +21,7 @@ module.exports = (sequelize: any, DataTypes: any) => {
             allowNull: false,
         },
         ingredients: {
-            type: DataTypes.JSON(),
+            type: DataTypes.TEXT('long'),
             allowNull: false,
         },
         image: {
